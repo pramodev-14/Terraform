@@ -1,0 +1,34 @@
+# package directories
+node_modules
+jspm_packages
+dist
+# Serverless directories
+.serverless
+npm-debug.log
+# Webpack output
+.webpack
+# AWS configs
+.env
+.eslintignore
+.eslintrc
+.idea
+.jshintrc
+
+# Webpack output
+.webpack
+# AWS configs
+scripts/build
+# Terraform state
+deploy/tf/.terraform
+.tfstate
+.backup
+db/db_config
+lambda-layer
+lambda-layer/nodejs
+lambda-layer/rc-lambda-layer.zip
+--globoff
+--request
+-g
+-X
+*.zip 
+.terraform/
